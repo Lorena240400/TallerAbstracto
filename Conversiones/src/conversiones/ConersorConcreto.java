@@ -16,7 +16,7 @@ public class ConersorConcreto extends AConversor {
     @Override
     double farenheit2kelvin() {
        
-        return 
+        return (dato+459.67)*5/9;
     }
     
 }

@@ -3,19 +3,23 @@ package conversiones;
 
 
 public class ConversorImplementado implements ITransformador{
+ 
+    double valor;
     
-    double dato;
-
     @Override
     public double grado2radian() {
-    
-        return 
+       
+       
+        return (valor * Math.PI)/180;
     }
 
     @Override
-    public double kelvi2ncelsius() {
-    
-        return 
+    public double kelvin2celsius() {
+
+        return (valor-273.15);
     }
     
+    
 }
+
+ 
